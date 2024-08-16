@@ -3,7 +3,7 @@ opciones={
     "derecha": "Encontraste un tesoro",
     "delante": "Caiste en un pozo"
 }
-eleccion=input("Estas en un cruce, ¿Quieres ir a la derecha, izquierda o adelante?: ")
+eleccion=input("Estas en un cruce, ¿Quieres ir a la derecha, izquierda o adelante?: ").lower()
 
 if eleccion in opciones:
     print("Respuesta:", opciones[eleccion])
